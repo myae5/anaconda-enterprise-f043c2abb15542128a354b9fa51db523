@@ -1,0 +1,22 @@
+name: House Price Predictions
+description: House price prediction classifier with API endpoint (requires access to the full Anaconda repository).
+
+commands:
+  default:
+    unix: python main.py
+    supports_http_options: true
+
+packages:
+  - pandas
+  - tornado
+  - scikit-learn
+  - ipykernel
+  - seaborn
+  - matplotlib
+  - scipy
+
+platforms:
+  - linux-64
+
+env_specs:
+  anaconda202011_py38: {}
